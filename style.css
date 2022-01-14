@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Shadows+Into+Light&display=swap');
+body{
+    background: rgb(80, 80, 80) ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Shadows Into Light', cursive;
+    position: sticky;
+    top: 0%;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 5vw;
+    background: rgb(29, 29, 29);
+    color: white;
+    font-size: 2vw;
+}
+nav ul li{
+    padding: 1vw;
+}
+.brand img{
+    height: 4vw;
+    padding: 0 2vw 0 0;
+}
+.brand{
+    display: flex;
+    font-weight: 600;
+    font-size: 3vw;
+    align-items: center;
+
+}
+.container{
+     height: 75vh ;
+     background: rgb(243, 243, 243);
+     font-family: 'Asap', sans-serif;
+     font-size: 1vw;
+     display: flex;
+     width: 75vw ;
+     margin: 2vw 13vw ;
+     border-radius: 2vw;
+     background-image: url('bglilies.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+}
+.bottom{
+    position: sticky;
+    height: 7vw;
+    background: rgb(195, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0;
+}
+.icons{
+    margin-top: 10px;
+}
+#progbar{
+    width: 75vw;
+    cursor: pointer;
+
+}
+.icons i{
+    cursor: pointer;
+}
+.songlist{
+    margin: 2vw;
+}
+.songItemContainer{
+    margin-top: 25px;
+}
+.songItem{
+    display: flex;
+    background: #000;
+    color: white;
+    margin: 0.5vw;  
+    height: 3vw;  
+    width: 30vw;
+    border-radius: 1vw;
+    align-items: center;
+    justify-content: space-around
+}
+.songItem img{
+    height: 3vw;
+    border-radius: 1vw;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 12.5vw;
+    top: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2vw;
+    
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity .3s ease-in;
+    height: 50px;
+} 

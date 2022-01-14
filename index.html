@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YMusic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="YMusic">YMusic</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h2>Songs  </h2>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class="songName">Rooh - Tej G</span>
+                    <span class="songlistplay"><span class="timestamp">5:32 <i id="1" class="fas songitemplay fa-play"></i> </span></span>
+                </div><div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Rooh - Tej G</span>
+                    <span class="songlistplay"><span class="timestamp">5:32 <i id="2" class="fas songitemplay fa-play"></i> </span></span>
+                </div><div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Rooh - Tej G</span>
+                    <span class="songlistplay"><span class="timestamp">5:32 <i id="3" class="fas songitemplay fa-play"></i> </span></span>
+                </div><div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Rooh - Tej G</span>
+                    <span class="songlistplay"><span class="timestamp">5:32 <i id="4" class="fas songitemplay fa-play"></i> </span></span>
+                </div><div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Rooh - Tej G</span>
+                    <span class="songlistplay"><span class="timestamp">5:32 <i id="5" class="fas songitemplay fa-play"></i> </span></span>
+                </div>
+                
+            </div>
+            <div class="songbanner"></div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i id ="back" class="fas  fa-2x fa-step-backward"></i>
+            <!-- <i class="fas songitemplay fa-2x fa-stop"></i> -->
+            <i class ="fas  fa-2x fa-play" id="masterplay"></i>
+            <i id="next" class="fas  fa-2x fa-step-forward"></i>
+        </div>
+        <div class="songinfo">
+            <img src="YdBO.gif" width="100px" alt="gif" id="gif"> <span id="mastersongname"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ce937960cd.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
